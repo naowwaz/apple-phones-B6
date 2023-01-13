@@ -1,6 +1,7 @@
 import React from 'react';
 import './cart.css'
 const Cart = ({cart}) => {
+
     return (
         <div className='cart'>
             <h3>Selected Item:  {cart.length}</h3>
