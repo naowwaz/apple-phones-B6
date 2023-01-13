@@ -1,9 +1,9 @@
 import React from 'react';
 import './cart.css'
-const Cart = () => {
+const Cart = ({cart}) => {
     return (
         <div className='cart'>
-            <h3>Selected Item:</h3>
+            <h3>Selected Item:  {cart.length}</h3>
             <p>Total Price: $</p>
             <p>Tax:</p>
             <h4>Grand Total: $</h4>
